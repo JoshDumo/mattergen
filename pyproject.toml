@@ -67,7 +67,7 @@ dependencies = [
 include = ["mattergen*"]
 
 [tool.uv.sources]
-pyg-lib = { url = "https://data.pyg.org/whl/torch-2.4.0%2Bcpu/pyg_lib-0.4.0%2Bpt24-cp310-cp310-macosx_14_0_universal2.whl" } 
-torch_cluster = { url = "https://data.pyg.org/whl/torch-2.4.0%2Bcpu/torch_cluster-1.6.3+pt24cpu-cp310-cp310-linux_x86_64.whl" }
-torch_sparse = { url = "https://data.pyg.org/whl/torch-2.4.0%2Bcpu/torch_sparse-0.6.18+pt24cpu-cp310-cp310-linux_x86_64.whl" }
-torch_scatter = { url = "https://data.pyg.org/whl/torch-2.4.0%2Bcpu/torch_scatter-2.1.2+pt24cpu-cp310-cp310-linux_x86_64.whl" }
+pyg-lib = { url = "https://data.pyg.org/whl/torch-2.4.0%2Bcu118/pyg_lib-0.4.0%2Bpt24cu118-cp310-cp310-linux_x86_64.whl" } 
+torch_cluster = { url = "https://data.pyg.org/whl/torch-2.4.0%2Bcu118/torch_cluster-1.6.3%2Bpt24cu118-cp310-cp310-linux_x86_64.whl" }
+torch_sparse = { url = "https://data.pyg.org/whl/torch-2.4.0%2Bcu118/torch_sparse-0.6.18%2Bpt24cu118-cp310-cp310-linux_x86_64.whl" }
+torch_scatter = { url = "https://data.pyg.org/whl/torch-2.4.0%2Bcu118/torch_scatter-2.1.2%2Bpt24cu118-cp310-cp310-linux_x86_64.whl" }
